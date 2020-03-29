@@ -32,6 +32,7 @@ public class ImpuestoController {
 	public List<Impuesto> getAllImpuestos() {
 		System.out.println("listando");
 		System.out.println("listando44");
+		System.out.println("istANDO 22");
 	    return impuestoService.findAll();
 	}
 	

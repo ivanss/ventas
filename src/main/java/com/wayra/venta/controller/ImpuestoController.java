@@ -31,6 +31,7 @@ public class ImpuestoController {
 	@CrossOrigin(origins = "http://localhost:4200")
 	public List<Impuesto> getAllImpuestos() {
 		System.out.println("listando");
+		System.out.println("istANDO 22");
 	    return impuestoService.findAll();
 	}
 	
